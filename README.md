@@ -74,7 +74,7 @@ También se pueden crear alarmas según los umbrales de valores de métricas esp
 
 Las métricas obtenidas en nuestro experimento fueron las siguientes:
 
-<img src="https://github.com/Carlos96999/ProyectoArep/blob/main/img/mediciones.jpg?raw=true"> 
+<img src="https://github.com/Carlos96999/ProyectoArep/blob/master/img/mediciones.jpg?raw=true"> 
 
 Podemos observar que al realizar el ataque la cantidad de datos entrantes fue de gran magnitud comparada a la usada normalmente. Gracias a la herramienta creamos una alarma que nos avisaba cuando la cantidad de paquetes entrantes era anómala o si superaba un umbral máximo.
 
