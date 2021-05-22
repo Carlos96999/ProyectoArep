@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+		</style>
+		<meta charset="UTF-8">
+		<title>AWS</title>
+	</head>
+	<body bgcolor="#cddf89"; onload="apiClient.getMensaje()">
+		<body>
+			<div>
+				AWS
+			</div>
+			<div>
+				Escriba el mensaje que desea ingresar.
+			</div>
+			<br><br>
+			<br><br>
+		</body>
+		<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
+		<input type="text" name="Mensaje" id="Mensaje" style="width:500px ; font-size:150% ; position:absolute ; top:208px ; text-align:center; left:0px">
+		<br><br>
+		<button type="button" onclick="apiClient.anadirMensaje()" style="width:508px ; font-size:150% ; position:absolute ; top:243px ; text-align:center; left:0px">Ingresar</button>
+		</form>
+		<div>
+			Mensajes ingresados
+		</div>
+		<div class="a">
+			<table class="table table-bordered" id="Table">
+				<thead class="thead-dark">
+				<tr>
+					<th scope="col">Número del mensaje</th>
+					<th scope="col">Mensaje</th>
+					<th scope="col">Fecha del mensaje</th>
+				</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+
+		<script type="text/javascript" src="js/apiClient.js" ></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	</body>
+</html>

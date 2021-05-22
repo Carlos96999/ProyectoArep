@@ -1,0 +1,3 @@
+ssh -i "AREP-LAB-5-Llaves.pem" ec2-user@ec2-54-158-51-38.compute-1.amazonaws.com
+ssh -i "C:\Users\Carlos\Downloads\AREP-LAB-5-Llaves.pem" ec2-user@ec2-54-158-51-38.compute-1.amazonaws.com
+http://ec2-54-158-51-38.compute-1.amazonaws.com:8087/
