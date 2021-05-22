@@ -10,7 +10,7 @@ Se realizaron dos pruebas (Una sobre un ambiente de una plataforma ajena y la ot
 * CircleCi
 
 ## CircleCi  
- [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/Carlos96999/AREP-LAB-5)  
+ [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/Carlos96999/ProyectoArep)  
 
 ## AWS  
 http://ec2-18-207-197-103.compute-1.amazonaws.com:8087/
