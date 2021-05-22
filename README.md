@@ -78,6 +78,7 @@ Las métricas obtenidas en nuestro experimento fueron las siguientes:
 Podemos observar que al realizar el ataque la cantidad de datos entrantes fue de gran magnitud comparada a la usada normalmente. Gracias a la herramienta creamos una alarma que nos avisaba cuando la cantidad de paquetes entrantes era anómala o si superaba un umbral máximo.
 
 
+
  
 ## Desarrollo
 Este laboratorio fue construido con las siguiente herramientas:
