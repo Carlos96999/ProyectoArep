@@ -65,7 +65,7 @@ Con ayuda de esta herramienta es posible asegurar la disponibilidad del servicio
 ## Ausencia del mínimo privilegio  
 Muchas veces al implementar servicios de la nube como lo pueden ser para almacenamiento (S3 fue probado en este caso), por el simple hecho de implementarlo y dejar la configuración por defecto del servicio, se cree que tendrá la seguridad suficiente, pero esto ahí no termina. Se tiene que realizar una correcta configuración del servicio para evitar que usuarios no deseados puedan tener acceso o incluso manejar el servicio a su antojo.
 
-##Mediciones del Experimento
+## Mediciones del Experimento
 
 *[CloudWatch](https://aws.amazon.com/es/cloudwatch/) 
 Para la medición de nuestro experimento se utilizó una herramienta ofrecida por AWS llamada Amazon CloudWatch, recopila datos de monitorización y operaciones en formato de registros, métricas y eventos, y permite su visualización mediante paneles automatizados para obtener una vista unificada de los recursos, las aplicaciones y los servicios de AWS que se ejecutan en servidores locales y de AWS.
@@ -73,7 +73,7 @@ Estas métricas y registros se pueden correlacionar para comprender mejor el est
 
 Las métricas obtenidas en nuestro experimento fueron las siguientes:
 
-<img src="https://github.com/Carlos96999/ProyectoArep/blob/main/img/aws-autoscaling.jpg?raw=true"> 
+<img src="https://github.com/Carlos96999/ProyectoArep/blob/main/img/mediciones.jpg?raw=true"> 
 
 Podemos observar que al realizar el ataque la cantidad de datos entrantes fue de gran magnitud comparada a la usada normalmente. Gracias a la herramienta creamos una alarma que nos avisaba cuando la cantidad de paquetes entrantes era anómala o si superaba un umbral máximo.
 
