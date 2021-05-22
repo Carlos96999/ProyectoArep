@@ -52,8 +52,19 @@ javaDocs
 ## Presentación  
 <img src="https://github.com/Carlos96999/ProyectoArep/blob/main/img/vistaInicial.PNG?raw=true">  
 
+## Ambiente  
+Para este proyecto se realizaron dos pruebas donde podemos evidenciar algunos de los ataques más comunes a los servicios montados en la nube, como lo son la denegación de servicio y la vulnerabilidad por la ausencia del mínimo privilegio (esta última por una mal configuración sobre el servicio implementado, con ayuda de una plataforma ajena HTB).
+Muchas veces para afectar la disponibilidad e incluso la confianza del sitio web, se realizan denegaciones de servicio y así afectar estos pilares importantes del negocio frente a sus clientes.  
+La ausencia del mínimo privilegio es muy común que se presente en servicios de la nube, ya que muchas veces no se tiene información sobre las acciones que un usuario puede ejecutar sobre el servicio o incluso se realiza una mala configuración, logrando así explotar permisos que tengan los usuarios para poder obtener información sobre el bien o incluso afectar la infraestructura desde su interior.  
 
-
+## Defensa DoS
+Para poder protegerse frente a una denegación de servicio, se implemento EC2 Auto Scaling, es una herramienta de AWS que nos permite administrar las máquinas EC2 para poder agregar o eliminar algunas instancias dependiendo de las condiciones establecidas al momento de configurarlo.
+Con ayuda de esta herramienta es posible asegurar la disponibilidad del servicio frente a una denegación de servicio, ya sea un ataque dirigido a un objetivo (DoS) o uno distribuido para varios objetivos (DDoS).  
+<img src="https://github.com/Carlos96999/ProyectoArep/blob/main/img/aws-autoscaling.jpg?raw=true">  
+  
+## Ausencia del mínimo privilegio  
+Muchas veces al implementar servicios de la nube como lo pueden ser para almacenamiento (S3 fue probado en este caso), por el simple hecho de implementarlo y dejar la configuración por defecto del servicio, se cree que tendrá la seguridad suficiente, pero esto ahí no termina. Se tiene que realizar una correcta configuración del servicio para evitar que usuarios no deseados puedan tener acceso o incluso manejar el servicio a su antojo.
+ 
 ## Desarrollo
 Este laboratorio fue construido con las siguiente herramientas:
 * [Maven](https://maven.apache.org/)
